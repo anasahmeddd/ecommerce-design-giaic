@@ -68,8 +68,7 @@ const page = () => {
         </main>
     )
 }
-
-export const Statistics = () => {
+const Statistics = () => {
 
     return (
         <section
