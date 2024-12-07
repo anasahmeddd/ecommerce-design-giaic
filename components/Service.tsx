@@ -7,12 +7,12 @@ const services = [
     description: "Free delivery for all orders over $140"
   },
   {
-    icon: "/service2.png",
+    icon: "/Service2.png",
     title: "24/7 CUSTOMER SERVICE",
     description: "Friendly 24/7 customer support"
   },
   {
-    icon: "/service3.png",
+    icon: "/Service3.png",
     title: "MONEY BACK GUARANTEE",
     description: "We reurn money within 30 days"
   }
