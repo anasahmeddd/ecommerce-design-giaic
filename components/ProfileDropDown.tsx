@@ -9,7 +9,7 @@ const ProfileDropDown = () => {
         <div className="flex relative">
             <button
                 onFocus={() => setOpen(true)}
-                onBlur={() => setTimeout(() => setOpen(false), 120)}
+                onBlur={() => setTimeout(() => setOpen(false), 150)}
                 className="flex rounded-full p-1 bg-red-500 text-white items-center justify-center">
                 <User2 size={'1.3rem'} />
             </button>
