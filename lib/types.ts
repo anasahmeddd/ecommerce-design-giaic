@@ -62,6 +62,10 @@ interface SocialButtonProps {
 }
 
 interface ProductCardProps {
+  product:ProductProps
+  isWishlistProduct?: boolean;
+}
+interface ProductProps {
   discount?: number;
   image: string;
   slug: string;
@@ -72,8 +76,8 @@ interface ProductCardProps {
   desc?: string;
   stock: number;
   reviews: number;
-  isWishlistProduct?: boolean;
   colors?: string[]
+  sizes?: string[]
 }
 
 interface RatingProps {
@@ -155,6 +159,12 @@ interface FormFieldProps {
   id: string;
   type?: string;
 }
+
+interface PaymentMethodProps {
+  type: string;
+  icons?: string[];
+}
+
 
 interface PaymentMethodProps {
   type: string;
